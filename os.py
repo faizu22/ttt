@@ -107,7 +107,7 @@ if a==9:
     os.system("pacman-key --init && pacman-key --populate archlinuxarm && pacman -Sy --noconfirm curl && curl -O https://blackarch.org/strap.sh && chmod +x strap.sh && ./strap.sh")
 if a==10:
     print()
-    print("CONSUME STORAGE 1GB + >> PRESS ENTER ")
+    print("CONSUME STORAGE 2GB + >> PRESS ENTER ")
     print()
     input()
     os.system("pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Alpine/alpine.sh && bash alpine.sh")
