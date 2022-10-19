@@ -50,62 +50,62 @@ print()
 print()
 a=int(input(g+"WHICH OS YOU WANT TO INSTALL => "+w))
 
-if a==1:
+if b==1:
     print()
     print("CONSUME STORAGE 1GB + >> PRESS ENTER ")
     print()
     input()
     os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh")
     
-if a==2:
+if b==2:
     print()
     print("CONSUME STORAGE 1GB + >> PRESS ENTER ")
     print()
     input()
     os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh")
-if a==3:
+if b==3:
     print()
     print("CONSUME STORAGE 1GB + >> PRESS ENTER ")
     print()
     input()
     os.system("pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Arch/armhf/arch.sh && bash arch.sh")
-if a==4:
+if b==4:
     print()
     print("CONSUME STORAGE 1GB + >> PRESS ENTER ")
     print()
     input()
     os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh")
-if a==5:
+if b==5:
     print()
     print("CONSUME STORAGE 1GB + >> PRESS ENTER ")
     print()
     input()
     os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Nethunter/nethunter.sh && bash nethunter.sh")
-if a==6:
+if b==6:
     print()
     print("CONSUME STORAGE 1GB + >> PRESS ENTER ")
     print()
     input()
     os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/BackBox/backbox.sh && bash backbox.sh")
-if a==7:
+if b==7:
     print()
     print("CONSUME STORAGE 1GB + >> PRESS ENTER ")
     print()
     input()
     os.system("pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Fedora/fedora.sh && bash fedora.sh")
-if a==8:
+if b==8:
     print()
     print("CONSUME STORAGE 1GB + >> PRESS ENTER ")
     print()
     input()
     os.system("pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/CentOS/centos.sh && bash centos.sh")
-if a==9:
+if b==9:
     print()
     print("CONSUME STORAGE 1GB + >> PRESS ENTER ")
     print()
     input()
     os.system("pacman-key --init && pacman-key --populate archlinuxarm && pacman -Sy --noconfirm curl && curl -O https://blackarch.org/strap.sh && chmod +x strap.sh && ./strap.sh")
-if a==10:
+if b==10:
     print()
     print("CONSUME STORAGE 2GB + >> PRESS ENTER ")
     print()
